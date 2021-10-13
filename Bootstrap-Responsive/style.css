@@ -1,0 +1,27 @@
+.bg-image {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("images/home.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+.space {
+  height: 190px;
+}
+.purple {
+  background-color: #4900d5;
+}
+.red {
+  color: #ff0000;
+}
+.size-sm {
+  font-size: 14px;
+}
+.icon-blue {
+  background-color: #4299fb;
+  color: white;
+}
+button:focus {
+  outline: 1px solid orange;
+}

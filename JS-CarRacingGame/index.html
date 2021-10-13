@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Car racing game</title>
+	<meta name="keywords" content="html,css,lekcii">
+	<meta name="description" content="ova e strana za ucenje">
+	<meta name="author" content="Kristijan Bobevski">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+	<!-- Latest compiled and minified BOOTSTRAP CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- Local CSS -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!-- Font-awesome 4.7 cdn -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body id="race">
+	<!-- write your code here -->
+	<div class="container-fluid">
+		<div id="countdown"></div>
+		<div id="finish"><img src="./img/finish.gif" /></div>
+
+
+		<div class="partOne row">
+			<h1>Car racing game</h1>
+			<button class="btn race">Race</button>
+			<button class="btn startOver">Start over</button>
+		</div>
+
+		<div class="partTwo row">
+			<img class="car1" src="./img/car2.gif" />
+		</div>
+
+		<div class="partThree row">
+			<img class="car2" src="./img/car1.gif" />
+		</div>
+
+		<div class="partFour row">
+			<div class="col-md-6">
+				<h2>Results</h2>
+				<div class="row"></div>
+				<div class="col-md-6">
+					<h4 class="white bold">Car 1</h4>
+					<div class="resultsCar1"></div>
+				</div>
+				<div class="col-md-6">
+					<h4 class="red bold">Car 2</h4>
+					<div class="resultsCar2"></div>
+				</div>
+			</div>
+			<div class="col-md-6 lastRace">
+				<h3 class="space">Results from the previous time you played this game:</h3>
+				<div class="row">
+					<div class="col-md-12 boxResults">
+						<div class="lastCar1"></div>
+					</div>
+					<div class="col-md-12 boxResults">
+						<div class="lastCar2"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+	</div>
+
+	<!-- jQuery library -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+
+	<script src="app.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>

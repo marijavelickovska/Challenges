@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="https://fontawesome.com/v4.7.0/icon/cc">
+    <link rel="stylesheet" href="style.css">
+    <title>Vraboti student</title>
+
+</head>
+
+<body>
+    <div class="container-fluid px-0">
+        <nav class="navbar navbar-expand-lg bg-yellow shadow px-3">
+            <a class="navbar-brand text-uppercase text-dark" href="index.html">
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i id="navbar-toggle-icon" class="bi bi-list"></i>
+                </button>
+                <div class="row">
+                    <div class="col-12">
+                        <img src="Logo.png" width="45" id="logo" class="pl-2" />
+                    </div>
+                    <div class="col-12">
+                        <h6 class="logo pl-1">Brainster</h6>
+                    </div>
+                </div>
+            </a>
+            <button class="click_main fa-bar-icon"><i class="fa fa-bars"></i></button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <i class="fa fa-times nav-hide" id="click2"></i>
+                <ul class="nav">
+                    <li>
+                        <a class="nav-link text-dark font" href="https://marketpreneurs.brainster.co"
+                            target="_blank">Академија за маркетинг</a>
+                    </li>
+                    <li>
+                        <a class="nav-link text-dark font" href="https://codepreneurs.brainster.co"
+                            target="_blank">Академија за програмирање</a>
+                    </li>
+                    <li>
+                        <a class="nav-link text-dark font" href="https://datascience.brainster.co/"
+                            target="_blank">Академија за data science</a>
+                    </li>
+                    <li>
+                        <a class="nav-link text-dark font" href="https://design.brainster.co" target="_blank">Академија
+                            за дизајн</a>
+                    </li>
+                </ul>
+                <button class="btn btn-danger btn-sm ml-5 p-0 buttonvrabotistudent"><a
+                        class="nav-link text-light font px-4 buttonvraboti" href="vrabotistudent.html">Вработи наш
+                        студент</a>
+                </button>
+            </div>
+        </nav>
+
+        <div class="row bg-yellow m-0">
+            <div class="col-10 offset-1 col-md-8 offset-md-2">
+                <div class="row">
+                    <div class="col-12 d-flex align-items-center justify-content-center text-dark">
+                        <h1 class="vrabotistudentTitle text-center">Вработи студенти</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Forma-->
+        <div class="row bg-yellow vrabotistudentForma m-0">
+            <div class="col-10 offset-1">
+                <form action="form.php" method="post" id="form">
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <div class="form-group">
+                                <label class="bold" for="name">Име и презиме</label>
+                                <input type="text" id="name" name="name" class="form-control"
+                                    placeholder="Вашето име и презиме" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="bold" for="email">Контакт имејл</label>
+                                <input type="email" id="email" name="email" class="form-control"
+                                    placeholder="Контакт имејл на вашата компанија" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="bold" for="custom-select">Тип на студенти</label>
+                                <select class="custom-select">
+                                    <option value="0" disabled selected hidden>Избери тип на студент</option>
+                                    <option value="1">Студенти од маркетинг</option>
+                                    <option value="2">Студенти од програмирање</option>
+                                    <option value="3">Студенти од data science</option>
+                                    <option value="4">Студенти од дизајн</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="form-group">
+                                <label class="bold" for="nameComany">Име на компанија</label>
+                                <input type="text" id="nameComany" name="nameComany" class="form-control"
+                                    placeholder="Име на вашата компанија" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="bold" for="phone">Контакт телефон</label>
+                                <input type="number" id="phone" name="phone" class="form-control"
+                                    placeholder="Контакт телефон на вашата компанија" required>
+                            </div>
+                            <div class="form-group buttonIsprati">
+                                <button type="submit" class="btn bg-red btn-block text-light bold">ИСПРАТИ</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+
+        <!--Footer-->
+        <div class="row footer pt-3 m-0">
+            <div class="col-12">
+                <p class="text-center">Изработено со љубов <i class="fa fa-heart i-heart text-red"
+                        aria-hidden="true"></i>
+                    од студентите на Brainster</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+
+    <script>
+        $(window).resize(function () {
+            location.reload();
+        });
+
+        document.querySelector(".click_main").addEventListener("click", toggleLogo);
+
+        function toggleLogo(e) {
+
+            e.preventDefault();
+            var logoVisibility = document.querySelector(".navbar-brand").style.visibility;
+            if (logoVisibility == 'visible' || logoVisibility == '') {
+                document.querySelector(".navbar-brand").style.visibility = "hidden";
+                document.querySelector("#navbarNav").style.visibility = "visible";
+                $('#navbarNav').addClass('nav-shown');
+                $('#navbarNav').removeClass('navbar-collapse collapse');
+                $('nav').addClass('navProperties');
+                $('#click2').css('color', 'white').show();
+                $('.click_main').hide();
+            } else {
+                document.querySelector(".navbar-brand").style.visibility = "visible";
+            }
+
+            document.querySelector("#navbar-toggle-icon").classList.toggle('bi-list');
+            document.querySelector("#navbar-toggle-icon").classList.toggle('bi-x');
+        }
+
+        $('#click2').on('click', function (e) {
+            e.preventDefault();
+
+            document.querySelector(".navbar-brand").style.visibility = "visible";
+            document.querySelector("#navbarNav").style.visibility = "hidden";
+            $('#navbarNav').removeClass('nav-shown')
+            $('#navbarNav').addClass('navbar-collapse collapse')
+            $('nav').removeClass('navProperties');
+            $('#click2').css('color', 'white').hide();
+            $('.click_main').show();
+        })
+
+
+    </script>
+
+
+</body>
+
+</html>

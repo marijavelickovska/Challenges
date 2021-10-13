@@ -1,0 +1,80 @@
+.bg-yellow {
+    background-color: #fcd232;
+}
+
+.bg-image {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url("/images/synthesio-0301.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.lightGray {
+    background-color: lightgray;
+}
+
+.hover {
+    border: 1px solid orange;
+}
+
+.blue {
+    color: blue;
+}
+
+.bg-red {
+    background-color: #f8d7da;
+}
+
+.red {
+    color: #a16083;
+}
+
+.bg-green {
+    background-color: #b9ecc5;
+}
+
+.green {
+    color: #396b41;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.hide {
+    display: none;
+}
+
+.logBtn {
+    text-decoration: none;
+}
+
+.blue :hover {
+    color: gray;
+}
+.zoom {
+    transition: transform 0.5s;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+}
+
+.greenColor {
+    color: green;
+}
+
+.grey {
+    color: grey;
+}
+

@@ -1,0 +1,66 @@
+.borderLeft {
+  border-left: 2px solid white;
+}
+.bgImageHome1 {
+  background-image: url("images/lights.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.bgImageHome2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)),
+    url("images/media.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.bg-black {
+  background-color: black;
+}
+.space {
+  height: 550px;
+}
+.bgMaus {
+  background-image: url("images/image1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+}
+#controlIcon {
+  align-items: flex-start;
+  width: 5%;
+}
+.imgAboutus {
+  position: absolute;
+  top: -130px;
+}
+.bg-red {
+  background-color: red;
+  border-radius: 5px;
+}
+.bg-blue {
+  background-color: blue;
+}
+.aboutusBottom {
+  height: 120px;
+}
+i {
+  padding-right: 5px;
+}
+.bg-grey {
+  background-color: #212121;
+  color: white;
+  margin-bottom: 2vh;
+}
+.bg-darkgrey {
+  background-color: #333333;
+}
+.bor {
+  border-bottom: 2px solid #272727;
+}
+@media (min-width: 992px) {
+  .height {
+    height: 500px;
+  }
+}
+

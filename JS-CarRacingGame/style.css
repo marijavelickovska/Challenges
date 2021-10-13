@@ -1,0 +1,121 @@
+#race {
+  text-align: center;
+  background-color: #242021;
+  margin: 0px;
+}
+
+h1,
+h2,
+h3 {
+  color: #a2a2a2;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+#countdown {
+  color: white;
+  position: absolute;
+  left: 46%;
+  top: 30%;
+  font-size: 150px;
+  font-weight: bold;
+}
+
+#finish {
+  display: none;
+  position: absolute;
+  left: 40%;
+  top: 30%;
+  width: 100px;
+}
+
+.btn {
+  color: white;
+  background-color: #242021;
+  border: 1px solid white;
+  padding: 5px 40px;
+  font-weight: bold;
+}
+
+.partOne {
+  height: 25vh;
+  border-bottom: 10px solid #3ab54b;
+}
+
+.partTwo {
+  height: 20vh;
+  border-top: 10px solid white;
+  border-bottom: 10px solid #fff100;
+  text-align: left !important;
+}
+
+.partThree {
+  height: 20vh;
+  border-top: 10px solid #fff100;
+  border-bottom: 10px solid white;
+  margin-top: 6px;
+  text-align: left !important;
+}
+
+.partFour {
+  height: 40vh;
+  border-top: 10px solid #3ab54b;
+  padding-top: 20px;
+}
+
+.boxResults {
+  border: 1px solid white;
+  padding: 10px;
+  color: #a2a2a2;
+}
+
+.white {
+  color: white;
+}
+
+.red {
+  color: red;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.space {
+  padding-top: 5px;
+  padding-bottom: 45px;
+}
+.car1 {
+  color: #ffebf7;
+  width: 250px;
+  margin-top: -70px;
+  margin-left: 0px;
+}
+
+.car2 {
+  color: #ba0000;
+  width: 250px;
+  margin-top: -70px;
+  margin-left: 0px;
+}
+
+.lastRace {
+  display: none;
+}
+
+/*use these below*/
+/*car1 color*/
+/*color: #ffebf7;*/
+
+/*car2 color*/
+/*color: #ba0000;*/
